@@ -23,18 +23,18 @@ namespace SiteToXlsC
 
             MyLogger.Info("Parsing details of {0}", link);
             var sb = new List<string>();
-            
+
             var doc = new XmlDocument();
             doc.LoadXml(table);
 
             XmlNodeList nodeList = doc.SelectNodes("//tr");
 
-            for(var i = 1; i<nodeList.Count; i++ )
+            for (var i = 1; i < nodeList.Count; i++)
             {
                 var trNode = nodeList[i];
-                foreach(XmlNode node in trNode.ChildNodes)
+                for (int j = 1; j < trNode.ChildNodes.Count - 2; j++)
                 {
-                    sb.Add(WebHelper.RemoveLineEndings(WebHelper.StripHTML(node.InnerText)));
+                    sb.Add(WebHelper.RemoveLineEndings(WebHelper.StripHTML(trNode.ChildNodes[j].InnerText)));
                 }
             }
             sb.Add(link);
