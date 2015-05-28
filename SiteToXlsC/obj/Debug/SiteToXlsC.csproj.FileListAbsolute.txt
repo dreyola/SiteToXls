@@ -1,0 +1,8 @@
+c:\users\irish_000\documents\visual studio 2013\Projects\SiteToXls\SiteToXlsC\bin\Debug\SiteToXlsC.exe.config
+c:\users\irish_000\documents\visual studio 2013\Projects\SiteToXls\SiteToXlsC\obj\Debug\SiteToXlsC.csprojResolveAssemblyReference.cache
+c:\users\irish_000\documents\visual studio 2013\Projects\SiteToXls\SiteToXlsC\bin\Debug\SiteToXlsC.exe
+c:\users\irish_000\documents\visual studio 2013\Projects\SiteToXls\SiteToXlsC\bin\Debug\SiteToXlsC.pdb
+c:\users\irish_000\documents\visual studio 2013\Projects\SiteToXls\SiteToXlsC\bin\Debug\NLog.dll
+c:\users\irish_000\documents\visual studio 2013\Projects\SiteToXls\SiteToXlsC\bin\Debug\NLog.xml
+c:\users\irish_000\documents\visual studio 2013\Projects\SiteToXls\SiteToXlsC\obj\Debug\SiteToXlsC.exe
+c:\users\irish_000\documents\visual studio 2013\Projects\SiteToXls\SiteToXlsC\obj\Debug\SiteToXlsC.pdb
